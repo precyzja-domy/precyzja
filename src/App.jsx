@@ -44,7 +44,7 @@ export default function App() {
         <section id="contact" className="space-y-4">
           <h2 className="text-3xl font-semibold text-blue-300">Contact us</h2>
           <p className="text-gray-400">Email: blueegg.dev@gmail.com</p>
-          //Add company phone someday <p className="text-gray-400">Phone:</p>
+             {/* Add company phone someday <p className="text-gray-400">Phone:</p> */}
         </section>
       </main>
     </div>
