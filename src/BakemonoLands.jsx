@@ -15,8 +15,9 @@ export default function BakemonoLands() {
               Bakemono Lands
             </h2>
             <p className="text-gray-400 mt-4">
-              Enter Bakemono Lands, where mythical spirits await your care. 
-              Hatch eggs, guide them through playful challenges, and watch them evolve into powerful companions.
+              Enter Bakemono Lands, where mythical spirits await your care.
+              Hatch eggs, guide them through playful challenges, and watch them
+              evolve into powerful companions!
             </p>
 
             {/* Google Play Button */}
@@ -48,57 +49,213 @@ export default function BakemonoLands() {
             Privacy Policy
           </h2>
           <p className="text-gray-400">
-            Effective Date: 21.08.2025
-Developer: BlueEgg
-Contact: blueegg.dev@gmail.com
-Bakemono Lands (“the App”) is developed and provided by BlueEgg (“we,” “us,” or “our”). We respect your privacy and are committed to protecting it through this Privacy Policy. This document explains how we handle user information in connection with the App.
-1. Information We Collect
-We do not collect personal data directly. However, the App integrates with third-party services provided by Google (Firebase, Google Analytics, Google Play Games Services, Google Play Billing, and AdMob), which may collect and process the following categories of information on our behalf:
-App Activity: Information about how users interact with the App (e.g., time spent, screens viewed).
-App Information and Performance: Crash logs, diagnostic reports, and performance data.
-Device and Identifiers: Device identifiers such as Firebase Installation ID or Advertising ID.
-User Identifiers: A unique user ID and display name associated with Google Play Games Services.
-Personal Information: The Google Play Games profile name chosen by the user.
-Financial Information: Purchase history relating to in-app purchases made through Google Play Billing.
-Location Data: Approximate location (e.g., country or region), inferred by Google Analytics.
-2. Purposes of Data Collection
-The above data may be collected and processed for the following purposes:
-App Functionality: To enable core features such as achievements, leaderboards, and progress saving.
-Account Management: To authenticate users via Google Play Games Services and manage their gameplay data.
-Analytics: To understand how users interact with the App, improve features, and monitor performance.
-Advertising and Marketing: To deliver advertisements through AdMob and measure their performance.
-Fraud Prevention, Security, and Compliance: To detect fraudulent activity, maintain App integrity, and comply with legal obligations.
-3. Data Sharing
-We do not sell, trade, or otherwise transfer user data to third parties. However, user data may be transmitted to and processed by Google LLC and its affiliates, in accordance with their respective privacy policies, when using the services integrated into the App.
-Relevant privacy policies include:
-<a 
-  href="https://policies.google.com/privacy" 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  className="text-blue-400 hover:underline"
->
-  Google Privacy Policy
-</a>
-Google Play Games Services Privacy
-Google AdMob Privacy & Security
-4. Children’s Privacy
-The App is rated PEGI 3 and is suitable for users of all ages, including children under 13. We do not knowingly collect personal data from children directly. Any data processed through the App is handled by Google’s services as described above and subject to their policies.
-Parents or guardians who have concerns about their child’s data are encouraged to review Google’s privacy practices and may request deletion of Google Play Games profiles as described in Section 5 below.
-5. Data Retention and Deletion
-We do not retain any user data on our own servers. All data collected and processed in connection with the App is retained by Google in accordance with its data retention policies.
-Users who wish to delete their account data and associated information can do so by deleting their Google Play Games profile:
-Delete Google Play Games Profile
-Users may also adjust their ad personalization and data collection settings through Google:
-Google Ads Settings
-For any additional data deletion requests specific to the App, please contact us directly at blueegg.dev@gmail.com.
-6. Security
-We rely on Google’s security measures to protect user data transmitted through its services. All data transmitted between the App and Google services is encrypted in transit.
-7. Changes to This Privacy Policy
-We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or integrations with third-party services. Any updates will be posted at this URL with a revised “Effective Date.”
-8. Contact Us
-If you have any questions or concerns regarding this Privacy Policy or our data practices, you may contact us at:
-BlueEgg
-blueegg.dev@gmail.com
+            <span className="text-gray-200">
+              Effective Date: 21.08.2025
+              <br />
+              Developer: BlueEgg <br />
+              Contact: blueegg.dev@gmail.com
+            </span>
+            <br />
+            <br /> Bakemono Lands (“the App”) is developed and provided by
+            BlueEgg (“we,” “us,” or “our”). We respect your privacy and are
+            committed to protecting it through this Privacy Policy. This
+            document explains how we handle user information in connection with
+            the App. <br />
+            <br />
+            <span className="text-gray-200">1. Information We Collect</span>
+            <br /> We do not collect personal data directly. However, the App
+            integrates with third-party services provided by Google (Firebase,
+            Google Analytics, Google Play Games Services, Google Play Billing,
+            and AdMob), which may collect and process the following categories
+            of information on our behalf:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                App Activity: Information about how users interact with the App
+                (e.g., time spent, screens viewed).
+              </li>
+              <li>
+                App Information and Performance: Crash logs, diagnostic reports,
+                and performance data.
+              </li>
+              <li>
+                Device and Identifiers: Device identifiers such as Firebase
+                Installation ID or Advertising ID.
+              </li>
+              <li>
+                User Identifiers: A unique user ID and display name associated
+                with Google Play Games Services.
+              </li>
+              <li>
+                Personal Information: The Google Play Games profile name chosen
+                by the user.
+              </li>
+              <li>
+                Financial Information: Purchase history relating to in-app
+                purchases made through Google Play Billing.
+              </li>
+              <li>
+                Location Data: Approximate location (e.g., country or region),
+                inferred by Google Analytics.
+              </li>
+            </ul>
+            <br />
+            <span className="text-gray-200">
+              2. Purposes of Data Collection
+            </span>
+            <br /> The above data may be collected and processed for the
+            following purposes:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                App Functionality: To enable core features such as achievements,
+                leaderboards, and progress saving.
+              </li>
+              <li>
+                Account Management: To authenticate users via Google Play Games
+                Services and manage their gameplay data.{" "}
+              </li>
+
+              <li>
+                Analytics: To understand how users interact with the App,
+                improve features, and monitor performance.
+              </li>
+
+              <li>
+                Advertising and Marketing: To deliver advertisements through
+                AdMob and measure their performance.
+              </li>
+
+              <li>
+                Fraud Prevention, Security, and Compliance: To detect fraudulent
+                activity, maintain App integrity, and comply with legal
+                obligations.
+              </li>
+              <br />
+            </ul>
+            <span className="text-gray-200">3. Data Sharing</span>
+            <br />
+            We do not sell, trade, or otherwise transfer user data to third
+            parties. However, user data may be transmitted to and processed by
+            Google LLC and its affiliates, in accordance with their respective
+            privacy policies, when using the services integrated into the App.
+            Relevant privacy policies include:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                <a
+                  href="https://policies.google.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  Google Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://support.google.com/googleplay/answer/3129346?hl=en&ref_topic=15525679&sjid=4323198596462636776-EU"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  Google Play Games Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://support.google.com/publisherpolicies/topic/10436799?hl=en&ref_topic=10502221&sjid=4323198596462636776-EU"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  Privacy Google AdMob Privacy & Security
+                </a>
+              </li>
+            </ul>
+            <br />
+            <span className="text-gray-200">4. Children’s Privacy</span>
+            <br />
+            The App is rated PEGI 3 and is suitable for users of all ages,
+            including children under 13. We do not knowingly collect personal
+            data from children directly. Any data processed through the App is
+            handled by Google’s services as described above and subject to their
+            policies. Parents or guardians who have concerns about their child’s
+            data are encouraged to review Google’s privacy practices and may
+            request deletion of Google Play Games profiles as described in
+            Section 5 below.
+            <br />
+            <br />
+            <span className="text-gray-200">
+              5. Data Retention and Deletion
+            </span>
+            <br />
+            We do not retain any user data on our own servers. All data
+            collected and processed in connection with the App is retained by
+            Google in accordance with its data retention policies. Users who
+            wish to delete their account data and associated information can do
+            so by deleting their Google Play Games profile:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                <a
+                  href="https://support.google.com/googleplay/answer/9130646"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  Delete Google Play Games Profile
+                </a>
+              </li>
+            </ul>
+            <br />
+            Users may also adjust their ad personalization and data collection
+            settings through Google:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                <a
+                  href="https://adssettings.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  Google Ads Settings
+                </a>
+              </li>
+            </ul>
+            <br />
+            For any additional data deletion requests specific to the App,
+            please contact us directly at{" "}
+            <span className="text-gray-200">blueegg.dev@gmail.com.</span>
+            <br />
+            <br />
+            <span className="text-gray-200">6. Security</span>
+            <br />
+            We rely on Google’s security measures to protect user data
+            transmitted through its services. All data transmitted between the
+            App and Google services is encrypted in transit.
+            <br />
+            <br />
+            <span className="text-gray-200">
+              7. Changes to This Privacy Policy
+            </span>
+            <br />
+            We may update this Privacy Policy from time to time to reflect
+            changes in our practices, legal requirements, or integrations with
+            third-party services. Any updates will be posted at this URL with a
+            revised “Effective Date.”
+            <br />
+            <br />
+            <span className="text-gray-200">8. Contact Us</span>
+            <br />
+            If you have any questions or concerns regarding this Privacy Policy
+            or our data practices, you may contact us at:
+            <br />
+            <br />
+            <span className="text-gray-200">blueegg.dev@gmail.com </span>
+            <br />
+            <span className="text-blue-300">BlueEgg Team</span>
           </p>
         </section>
 
