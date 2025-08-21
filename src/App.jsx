@@ -1,11 +1,15 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 export default function App() {
   const [activePage, setActivePage] = useState("about");
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-200 font-sans">
+      <Helmet>
+        <title>BlueEgg - About Us</title>
+      </Helmet>
       {/* Main Content */}
       <main className="px-8 py-12 max-w-5xl mx-auto space-y-24">
         {/* About us */}
@@ -44,7 +48,7 @@ export default function App() {
         {/* Contact us */}
         <section id="contact" className="space-y-4">
           <h2 className="text-3xl font-semibold text-blue-300">Contact us</h2>
-          <p className="text-gray-400">Email: blueegg.dev@gmail.com</p>
+          <p className="text-gray-200">Email: blueegg.dev@gmail.com</p>
           {/* Add company phone someday <p className="text-gray-400">Phone:</p> */}
         </section>
       </main>

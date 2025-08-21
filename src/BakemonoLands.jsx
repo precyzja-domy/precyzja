@@ -1,11 +1,15 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default function BakemonoLands() {
   const [activePage, setActivePage] = useState("bakemono");
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-200 font-sans">
+      <Helmet>
+        <title>BlueEgg - Bakemono Lands</title>
+      </Helmet>
       {/* Main Content */}
       <main className="px-8 py-12 max-w-6xl mx-auto space-y-24">
         {/* Description + Image */}

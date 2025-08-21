@@ -1,10 +1,14 @@
 // Header.jsx
 import { NavLink } from "react-router-dom";
+import logo from "./logo.svg";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center px-8 py-4 border-b border-gray-700">
-      <div className="text-2xl font-bold text-blue-400">YourCompany</div>
+    <header className="flex justify-between items-center px-8 py-4">
+      <div className="flex items-center space-x-2">
+        <img src={logo} alt="BlueEgg Logo" className="h-8 w-auto" />
+        <span className="text-2xl font-bold text-blue-400">BlueEgg</span>
+      </div>
 
       <nav className="flex space-x-8">
         <NavButton to="/" label="About us" />
