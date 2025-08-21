@@ -15,8 +15,8 @@ export default function BakemonoLands() {
               Bakemono Lands
             </h2>
             <p className="text-gray-400 mt-4">
-              A unique step-tracking and monster-raising experience where
-              players nurture mystical creatures while staying active.
+              Enter Bakemono Lands, where mythical spirits await your care. 
+              Hatch eggs, guide them through playful challenges, and watch them evolve into powerful companions.
             </p>
 
             {/* Google Play Button */}
