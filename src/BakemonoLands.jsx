@@ -266,11 +266,235 @@ export default function BakemonoLands() {
         {/* EULA */}
         <section id="eula" className="space-y-4">
           <h2 className="text-3xl font-semibold text-blue-300">
-            End-User License Agreement (EULA)
+            End User License Agreement (EULA)
           </h2>
           <p className="text-gray-400">
-            [Placeholder for EULA text. Replace this with your prepared
-            content.]
+            <br />
+            <span className="text-gray-200">
+              Effective Date: 22.08.2025
+              <br />
+              Developer: BlueEgg Game
+              <br />
+              Contact: blueegg.dev@gmail.com
+              <br />
+              Title: Bakemono Lands
+            </span>
+            <br />
+            <br />
+            This End User License Agreement (“Agreement”) is a legal contract
+            between you (“you,” “your,” or “User”) and BlueEgg (“we,” “us,” or
+            “our”), the developer of the mobile game Bakemono Lands (“the
+            Game”). By downloading, installing, or using the Game, you agree to
+            be bound by the terms of this Agreement. If you do not agree, you
+            must not download, install, or use the Game.
+            <br />
+            <br />
+            <span className="text-gray-200">1. License Grant</span>
+            <br />
+            Subject to your compliance with this Agreement, we grant you a
+            limited, non-exclusive, non-transferable, non-sublicensable,
+            revocable license to:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                Download, install, and use the Game on a compatible mobile
+                device that you own or control; and
+              </li>
+              <li>
+                Access and play the Game for your personal, non-commercial
+                entertainment purposes only.
+              </li>
+            </ul>
+            <br />
+            <span className="text-gray-200">
+              2. Ownership and Intellectual Property
+            </span>
+            <br />
+            All rights, title, and interest in and to the Game, including but
+            not limited to all graphics, artwork, designs, characters (including
+            “bakemono spirits”), animations, music, software code, and
+            associated intellectual property, are owned by us or our licensors.
+            This Agreement does not transfer any ownership rights to you.
+            <br />
+            <br />
+            <span className="text-gray-300">You agree not to:</span>
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>Copy, modify, or create derivative works of the Game; </li>
+              <li>Reverse-engineer, decompile, or disassemble the Game;</li>
+              <li>
+                Distribute, rent, lease, or sublicense the Game to third
+                parties;
+              </li>
+              <li>
+                Use the Game for commercial purposes without our prior written
+                consent.
+              </li>
+            </ul>
+            <br />
+            <span className="text-gray-200">3. Fan Works Exception</span>
+            <br />
+            We recognize and support the creativity of our community. Subject to
+            the following conditions, we grant users a limited, non-commercial
+            license to create fan art, fanfiction, comics, videos, or similar
+            creative works (“Fan Works”) inspired by Bakemono Lands:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                Fan Works must not be sold, licensed, or otherwise exploited for
+                commercial purposes without our prior written consent.
+              </li>
+              <li>
+                Fan Works must visibly credit Bakemono Lands as the original
+                source material.
+              </li>
+              <li>
+                Fan Works must not be presented as official, endorsed, or
+                affiliated with us.
+              </li>
+              <li>
+                Fan Works must not infringe on the rights of others, include
+                inappropriate or harmful content, or violate applicable laws.
+              </li>
+            </ul>
+            <br />
+            We reserve the right to revoke this permission at any time if these
+            conditions are not met.
+            <br />
+            <br />
+            <span className="text-gray-200">
+              4. Eligibility and Age Restrictions
+            </span>
+            <br />
+            The Game is rated PEGI 3 and is suitable for players of all ages.
+            Users under the age of 13 must have the consent of a parent or legal
+            guardian to use the Game. Parents and guardians are responsible for
+            monitoring their child’s use of the Game.
+            <br />
+            <br />
+            <span className="text-gray-200">5. Internet Connectivity</span>
+            <br />
+            The Game can be played offline. However, certain features, such as
+            cloud saving via Google Play Games Services, rewarded
+            advertisements, and in-app purchases, require an active internet
+            connection.
+            <br />
+            <br />
+            <span className="text-gray-200">
+              6. Advertisements and In-App Purchases
+            </span>
+            <br />
+            <ul className="ml-4">
+              <span className="text-gray-300">6.1 Advertisements</span>
+              <br />
+              The Game may display third-party advertisements. Users may choose
+              to view rewarded advertisements in exchange for in-game benefits,
+              such as additional currency or extra “revives.”
+              <br />
+              <span className="text-gray-200">6.2 In-App Purchases</span>
+              <br />
+              The Game offers optional in-app purchases, including but not
+              limited to: Additional daily currency (“Heavenly Tokens”) Extra
+              shelter space for mythical beasts Permanent removal of
+              advertisements All in-app purchases are processed through the
+              relevant app store provider (e.g., Google Play Store) and are
+              subject to their payment terms and policies. Purchases are
+              non-refundable except as required by applicable law or platform
+              policies.
+            </ul>
+            <br />
+            <span className="text-gray-200">7. User Data and Privacy</span>
+            <br />
+            The Game does not create accounts directly. Instead, it may
+            integrate with Google Play Games Services for authentication and
+            cloud saving. Data collection, storage, and processing are handled
+            by Google and subject to our{" "}
+            <a
+              href="#privacy"
+              className="text-blue-400 hover:underline hover:text-blue-600"
+            >
+              Privacy Policy
+            </a>{" "}
+            and Google’s privacy practices.
+            <br />
+            <br />
+            <span className="text-gray-200">8. Updates and Modifications</span>
+            <br />
+            We may release updates, patches, or modifications to the Game from
+            time to time to improve functionality, introduce new content, or
+            address security and technical issues. We reserve the right to
+            modify, suspend, or discontinue the Game, or any part thereof, at
+            our discretion without prior notice.
+            <br />
+            <br />
+            <span className="text-gray-200">9. Termination</span>
+            <br />
+            This Agreement is effective until terminated. We may terminate this
+            Agreement and revoke your license if you violate its terms. Upon
+            termination, you must cease all use of the Game and uninstall it
+            from your devices.
+            <br />
+            <br />
+            <span className="text-gray-200">10. Disclaimers</span>
+            <br />
+            The Game is provided “as is” and “as available” without warranties
+            of any kind, express or implied. We disclaim all warranties,
+            including but not limited to:
+            <br />
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>Fitness for a particular purpose,</li>
+              <li>Non-infringement,</li>
+              <li>Availability, accuracy, or uninterrupted operation.</li>
+            </ul>
+            <br />
+            We make no guarantees that the Game will be error-free, secure, or
+            compatible with all devices.
+            <br />
+            <br />
+            <span className="text-gray-200">11. Limitation of Liability</span>
+            <br />
+            To the maximum extent permitted by law, we shall not be liable for:
+            <ul className="list-disc ml-6 text-gray-400">
+              <li>
+                Any indirect, incidental, special, consequential, or punitive
+                damages;
+              </li>
+              <li>Loss of data, gameplay progress, or in-app purchases;</li>
+              <li>
+                Issues caused by third-party advertisements or services
+                integrated into the Game.{" "}
+              </li>
+            </ul>
+            <br />
+            Your sole remedy in the event of dissatisfaction with the Game is to
+            discontinue use of the Game.
+            <br />
+            <br />
+            <span className="text-gray-200">12. Governing Law</span>
+            <br />
+            This Agreement shall be governed by and construed in accordance with
+            the laws of Poland, without regard to conflict of law principles.
+            <br />
+            <br />
+            <span className="text-gray-200">13. Contact Information</span>
+            <br />
+            For questions, complaints, or claims regarding this Agreement,
+            please contact us at:{" "}
+            <span className="text-gray-200">
+              blueegg.dev@gmail.com
+              <br />
+              <br />
+              Acceptance
+              <br />
+              By downloading, installing, or using Bakemono Lands, you
+              acknowledge that you have read, understood, and agreed to the
+              terms of this End User License Agreement.
+              <br />
+              <br />
+              blueegg.dev@gmail.com
+            </span>
+            <br />
+            <span className="text-blue-300">BlueEgg Team</span>
           </p>
         </section>
       </main>
