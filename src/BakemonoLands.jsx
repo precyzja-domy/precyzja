@@ -297,7 +297,7 @@ export default function BakemonoLands() {
               <span className="text-gray-200">
                 Effective Date: 22.08.2025
                 <br />
-                Developer: BlueEgg Game
+                Developer: BlueEgg
                 <br />
                 Contact: blueegg.dev@gmail.com
                 <br />
