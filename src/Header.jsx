@@ -7,12 +7,12 @@ export default function Header() {
     <header className="flex justify-between items-center px-8 py-4">
       <div className="flex items-center space-x-2">
         <img src={logo} alt="BlueEgg Logo" className="h-8 w-auto" />
-        <span className="text-2xl font-bold text-blue-400">BlueEgg</span>
       </div>
 
       <nav className="flex space-x-8">
         <NavButton to="/" label="About us" />
         <NavButton to="/bakemonolands" label="Bakemono Lands" />
+        <NavButton to="/faq" label="FAQ" />
       </nav>
     </header>
   );
@@ -23,7 +23,7 @@ function NavButton({ to, label }) {
     <NavLink
       to={to}
       className={({ isActive }) =>
-        `relative text-gray-300 hover:text-blue-400 ${
+        `relative group text-gray-300 hover:text-blue-400 ${
           isActive ? "font-semibold" : ""
         }`
       }
