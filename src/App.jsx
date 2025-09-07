@@ -1,9 +1,4 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { Helmet } from "react-helmet";
-
 export default function App() {
-  const [activePage, setActivePage] = useState("about");
   return (
     <div className="bg-gray-950">
       <section
@@ -40,21 +35,5 @@ export default function App() {
         </div>
       </section>
     </div>
-  );
-}
-
-function NavButton({ label, active, onClick }) {
-  return (
-    <button
-      onClick={onClick}
-      className="relative text-gray-300 hover:text-orange-500"
-    >
-      {label}
-      <span
-        className={`absolute left-0 -bottom-1 h-[2px] bg-orange-400 transition-all duration-300 ${
-          active ? "w-full" : "w-0 group-hover:w-full"
-        }`}
-      ></span>
-    </button>
   );
 }
