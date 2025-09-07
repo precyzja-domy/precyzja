@@ -6,8 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Header from "./Header";
 import App from "./App";
-import BakemonoLands from "./BakemonoLands";
-import FAQ from "./FAQ";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -16,8 +14,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Header />
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/bakemonolands" element={<BakemonoLands />} />
-          <Route path="/faq" element={<FAQ />} />
         </Routes>
       </div>
     </BrowserRouter>

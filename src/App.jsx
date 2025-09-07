@@ -4,54 +4,41 @@ import { Helmet } from "react-helmet";
 
 export default function App() {
   const [activePage, setActivePage] = useState("about");
-
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-200 font-sans">
-      <Helmet>
-        <title>BlueEgg - About Us</title>
-      </Helmet>
-      {/* Main Content */}
-      <main className="px-8 py-12 max-w-5xl mx-auto space-y-24">
-        {/* About us */}
-        <section id="about" className="space-y-4">
-          <h2 className="text-3xl font-semibold text-blue-300">About us</h2>
-          <p className="text-gray-400 max-w-3xl">
-            BlueEgg is an independent game studio dedicated to creating
-            high-quality, polished experiences for players of all ages. We focus
-            on fun, accessible gameplay that feels fresh yet familiar, whether
-            you’re picking up your first game or you’ve been playing for years.
-            Starting with mobile, we’re dedicated to bring unique, carefully
-            crafted games to more players around the world.
-          </p>
-        </section>
-
-        {/* Our Projects */}
-        <section id="projects" className="space-y-6">
-          <h2 className="text-3xl font-semibold text-blue-300">Our Projects</h2>
-          <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-medium">Bakemono Lands</h3>
-            <p className="text-gray-400 mt-2">
-              Enter Bakemono Lands, where mythical spirits await your care.
-              Hatch eggs, guide them through playful challenges, and watch them
-              evolve into powerful companions!
-            </p>
-            <button
-              onClick={() => (window.location.href = "/bakemonolands")}
-              className="relative mt-4 inline-block text-blue-400 hover:text-blue-300"
-            >
-              Read more...
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-400 transition-all duration-300 hover:w-full"></span>
-            </button>
+    <div className="bg-gray-950">
+      <section
+        className="min-h-[70vh] bg-left bg-cover bg-no-repeat bg-gray-950 text-gray-200 flex flex-col items-center justify-center text-center px-6"
+        style={{ backgroundImage: "url('/2024-10-22.png')" }}
+      >
+        <h1 className="text-5xl font-bold text-orange-600 mb-4">PRECYZJA</h1>
+        <h2 className="text-2xl mb-6">Budownictwo | Geodezja</h2>
+        {/*<p className="max-w-2xl text-lg text-gray-400">
+          Profesjonalne usługi geodezyjne i budowlane. Precyzja, jakość i
+          doświadczenie na każdym etapie inwestycji.
+        </p>*/}
+      </section>
+      <section className="min-h-[30vh] bg-gray-900 text-gray-200 flex flex-col items-center justify-center px-6 py-12">
+        <h3 className="text-3xl font-bold text-orange-500 mb-4">Kontakt</h3>
+        <div className="space-y-2 text-center">
+          <p className="text-xl font-semibold">PRECYZJA</p>
+          <p className="text-lg">Witold Płoskonka | Teresa Grochot-Płoskonka</p>
+          <div className="mt-6 space-y-2">
+            <p>E-mail: precyzja.geodezja@gmail.com</p>
+            <p>Telefon: +48 501 480 466</p>
+            <p>Adres: Wielicka 103/I p, 32-003 Podłęże</p>
+            <br />
           </div>
-        </section>
-
-        {/* Contact us */}
-        <section id="contact" className="space-y-4">
-          <h2 className="text-3xl font-semibold text-blue-300">Contact us</h2>
-          <p className="text-gray-200">Email: blueegg.dev@gmail.com</p>
-          {/* Add company phone someday <p className="text-gray-400">Phone:</p> */}
-        </section>
-      </main>
+          <div className="mt-6 space-y-2 text-gray-400">
+            <p className="text-xl font-semibold">Godziny otwarcia:</p>
+            <p>poniedziałek: 8:00-16:00</p>
+            <p>wtorek: 8:00-15:30</p>
+            <p>środa: 8:00-15:30</p>
+            <p>czwartek: 8:00-15:30</p>
+            <p>piątek: 8:00-15:30</p>
+            <p>sobota, niedziela: Zamknięte</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
@@ -60,11 +47,11 @@ function NavButton({ label, active, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="relative text-gray-300 hover:text-blue-400"
+      className="relative text-gray-300 hover:text-orange-500"
     >
       {label}
       <span
-        className={`absolute left-0 -bottom-1 h-[2px] bg-blue-400 transition-all duration-300 ${
+        className={`absolute left-0 -bottom-1 h-[2px] bg-orange-400 transition-all duration-300 ${
           active ? "w-full" : "w-0 group-hover:w-full"
         }`}
       ></span>
