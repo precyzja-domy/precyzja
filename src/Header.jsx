@@ -2,7 +2,8 @@
 //import { NavLink } from "react-router-dom";
 import logo from "./logo.svg";
 
-export default function Header() {
+{
+  /*export default function Header() {
   return (
     <header className="flex justify-between items-center px-8 py-4">
       <div className="flex items-center space-x-2">
@@ -11,11 +12,11 @@ export default function Header() {
 
       {/* <nav className="absolute left-1/2 transform -translate-x-1/2 flex space-x-8">
         <NavButton to="/" label="Strona główna" />
-      </nav> */}
-    </header>
-  );
+      </nav> */
 }
-
+//    </header>
+//  );
+//}
 /*function NavButton({ to, label }) {
   return (
     <NavLink

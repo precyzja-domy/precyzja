@@ -4,17 +4,28 @@ export default function App() {
       <section
         className="min-h-[70vh] bg-left bg-cover bg-no-repeat bg-gray-950 text-gray-200 flex flex-col items-center justify-center text-center px-6"
         style={{ backgroundImage: "url('/2024-10-22.png')" }}
-      >
-        <h1 className="text-5xl font-bold text-orange-600 mb-4 font-ubuntuMono tracking-widest">
+      ></section>
+      <section className="min-h-[30vh] bg-gray-900 text-gray-200 flex flex-col items-center justify-center px-6 py-12">
+        <h1
+          className="text-5xl font-bold text-orange-600 mb-4 font-ubuntuMono tracking-widest"
+          style={{ textShadow: "2px 2px 6px rgba(0,0,0,0.9)" }}
+        >
           PRECYZJA
         </h1>
-        <h2 className="text-2xl mb-6">Geodezja | Budownictwo</h2>
-        {/*<p className="max-w-2xl text-lg text-gray-400">
-          Profesjonalne usługi geodezyjne i budowlane. Precyzja, jakość i
-          doświadczenie na każdym etapie inwestycji.
-        </p>*/}
-      </section>
-      <section className="min-h-[30vh] bg-gray-900 text-gray-200 flex flex-col items-center justify-center px-6 py-12">
+
+        <h2
+          className="text-2xl mb-6"
+          style={{ textShadow: "1px 1px 4px rgba(0,0,0,0.9)" }}
+        >
+          Geodezja | Budownictwo
+        </h2>
+
+        {/* Address (centered under both) */}
+        <div className="mt-6 text-center">
+          <p>Adres: Wielicka 103/I p, 32-003 Podłęże</p>
+          <br />
+        </div>
+
         <h3 className="text-3xl font-bold text-orange-500 mb-8 font-ubuntuMono">
           Kontakt
         </h3>
@@ -44,11 +55,6 @@ export default function App() {
               <p>Telefon: +48 604 942 645</p>
             </div>
           </div>
-        </div>
-
-        {/* Address (centered under both) */}
-        <div className="mt-6 text-center">
-          <p>Adres: Wielicka 103/I p, 32-003 Podłęże</p>
         </div>
 
         {/* Opening hours */}
