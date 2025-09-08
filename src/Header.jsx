@@ -9,9 +9,9 @@ export default function Header() {
         <img src={logo} alt="PRECYZJA" className="h-8 w-auto" />
       </div>
 
-      <nav className="absolute left-1/2 transform -translate-x-1/2 flex space-x-8">
+      {/* <nav className="absolute left-1/2 transform -translate-x-1/2 flex space-x-8">
         <NavButton to="/" label="Strona główna" />
-      </nav>
+      </nav> */}
     </header>
   );
 }
