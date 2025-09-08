@@ -1,5 +1,5 @@
 // Header.jsx
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import logo from "./logo.svg";
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
   );
 }
 
-function NavButton({ to, label }) {
+/*function NavButton({ to, label }) {
   return (
     <NavLink
       to={to}
@@ -30,4 +30,4 @@ function NavButton({ to, label }) {
       <span className="absolute left-0 -bottom-1 h-[2px] bg-orange-400 w-0 group-hover:w-full transition-all duration-300"></span>
     </NavLink>
   );
-}
+}*/
