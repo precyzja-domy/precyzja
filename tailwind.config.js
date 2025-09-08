@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // add this line
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ubuntuMono: ['"Ubuntu Mono"', "monospace"],
+      },
+    },
   },
   plugins: [],
 };
