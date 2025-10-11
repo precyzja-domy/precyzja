@@ -1,6 +1,6 @@
 export default function Oferta() {
   return (
-    <div className="bg-gray-950 text-gray-200 min-h-screen flex flex-col items-center pt-12 px-6">
+    <div className="bg-gray-950 text-gray-200 min-h-screen flex flex-col items-center pt-24 px-6">
       {/* Page title */}
       <h1
         className="text-5xl font-bold text-orange-600 mb-10 font-ubuntuMono tracking-widest text-center"
