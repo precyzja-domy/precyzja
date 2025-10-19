@@ -17,16 +17,10 @@ export default function Header() {
           <img src={logo} alt="PRECYZJA" className="h-8 w-auto" />
         </div>
 
-        {/* Desktop navigation */}
-        <nav className="hidden md:flex space-x-10">
-          <NavButton to="/oferta" label="Oferta sprzedaży" />
-          <NavButton to="/" label="Kontakt" />
-        </nav>
-
-        {/* Mobile menu button */}
+        {/* Hamburger menu button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-gray-300 hover:text-orange-500 focus:outline-none"
+          className="text-gray-300 hover:text-orange-500 focus:outline-none"
         >
           {menuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -34,7 +28,7 @@ export default function Header() {
 
       {/* Mobile dropdown menu */}
       {menuOpen && (
-        <div className="md:hidden bg-gray-900 border-t border-gray-800">
+        <div className="bg-gray-900 border-t border-gray-800">
           <nav className="flex flex-col items-center py-4 space-y-4">
             <NavButton
               to="/oferta"

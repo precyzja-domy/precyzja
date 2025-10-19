@@ -1,42 +1,47 @@
 export default function App() {
   return (
-    <div className="bg-gray-950">
+    <div className="bg-gray-950 pt-16 md:pt-16">
+      {/* Hero Section */}
       <section
-        className="min-h-[70vh] bg-left bg-cover bg-no-repeat bg-gray-950 text-gray-200 flex flex-col items-center justify-center text-center px-6"
+        className="relative min-h-[35vh] md:min-h-[45vh] bg-center bg-cover bg-no-repeat flex items-center justify-center text-center"
         style={{ backgroundImage: "url('/2024-10-22.png')" }}
-      ></section>
-      <section className="min-h-[30vh] bg-gray-900 text-gray-200 flex flex-col items-center justify-center px-6 py-12">
-        <h1
+      >
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/60"></div>
+      </section>
+
+      {/* Main Content */}
+      <section className="bg-gray-900 text-gray-200 flex flex-col items-center justify-center px-6 py-12">
+        <h2
           className="text-5xl font-bold text-orange-600 mb-4 font-ubuntuMono tracking-widest"
           style={{ textShadow: "2px 2px 6px rgba(0,0,0,0.9)" }}
         >
           PRECYZJA
-        </h1>
+        </h2>
 
-        <h2
+        <h3
           className="text-2xl mb-6"
           style={{ textShadow: "1px 1px 4px rgba(0,0,0,0.9)" }}
         >
           Geodezja | Budownictwo
-        </h2>
+        </h3>
 
-        {/* Address (centered under both) */}
-        <div className="mt-6 text-center">
+        {/* Address */}
+        <div className=" text-center">
+          <p>Telefon: +48 12 2818450</p>
           <p>Adres: Wielicka 103/I p, 32-003 Podłęże</p>
-          <br />
         </div>
 
-        <h3 className="text-3xl font-bold text-orange-500 mb-8 font-ubuntuMono">
+        <h4 className="mt-12 text-3xl font-bold text-orange-500 mb-8 font-ubuntuMono">
           Kontakt
-        </h3>
+        </h4>
 
         {/* Two-column contacts */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-4xl mx-auto text-center">
-          {/* Geodezja */}
           <div className="space-y-2">
-            <h4 className="text-2xl font-semibold text-orange-400 font-ubuntuMono">
+            <h5 className="text-2xl font-semibold text-orange-400 font-ubuntuMono">
               Geodezja
-            </h4>
+            </h5>
             <p className="text-lg">Teresa Grochot-Płoskonka</p>
             <div className="mt-4 space-y-2">
               <p>E-mail: precyzja.geodezja@gmail.com</p>
@@ -44,11 +49,10 @@ export default function App() {
             </div>
           </div>
 
-          {/* Budownictwo */}
           <div className="space-y-2">
-            <h4 className="text-2xl font-semibold text-orange-400 font-ubuntuMono">
+            <h5 className="text-2xl font-semibold text-orange-400 font-ubuntuMono">
               Budownictwo
-            </h4>
+            </h5>
             <p className="text-lg">Witold Płoskonka</p>
             <div className="mt-4 space-y-2">
               <p>E-mail: precyzja@g.pl</p>
